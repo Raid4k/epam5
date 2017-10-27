@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    color:#333333;
+    font-size: 14px;
+    background: #f8f8f8;
+    z-index:1;
+    
+}
+body:before{
+    content: '';
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-color:#abeafa;
+    z-index: -1;
+}
+a{
+    color:#333333;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    width:1200px;
+    padding:0 15px;
+    margin: 0 auto;
+}
+.header-top {
+	display:flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.logo{
+    margin-left: 70px;
+    display: block;
+}
+.logo:hover{
+    opacity: .7;
+}
+.header-top ul {
+    display:flex;
+    padding-top: 5px;
+    
+}
+.header-top ul li{
+	margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    text-align:left;
+}
+
+.header-top ul li:last-child{
+    margin-right: 20px;
+  
+  
+}
+.header-top ul li:hover{
+	background: #e24602;
+}
+.header-top ul li:hover:last-child{
+	background:none;
+}
+.header_fb{
+    background: url('../img/social_top.png') no-repeat 11px 7px;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.header_tw {
+    background: url('../img/social_top.png') no-repeat -15px 7px;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.header_yt {
+    background: url('../img/social_top.png') no-repeat -43px 7px;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.header_pi {
+	  background: url('../img/social_top.png') no-repeat -70px 7px;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.header_in {
+	  background: url('../img/social_top.png') no-repeat -97px 7px;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+.header_lang {
+	text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 10px;
+    color:#fff;
+    position: relative;
+     width:100%;
+    height: 100%;
+    display: block;
+    padding-top: 10px;
+}
+.header_lang:after {
+	content: '';
+    position: absolute;
+    right: 2px;
+    bottom: 6px;
+    border:5px solid transparent;
+    border-top:6px solid #e9e9e9;
+    
+}
