@@ -436,16 +436,13 @@ ul {
 }
 
 .header-bottom-right {
-    display: flex;
-    flex-direction: column;
     padding-top: 60px;
 
 }
 
 .slider-content {
     width: 420px;
-    display: flex;
-    align-items: center;
+   
 }
 
 .slider {
