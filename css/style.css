@@ -853,7 +853,7 @@ aside {
     display: flex;
     padding: 0;
     margin: 0;
-    padding: 65px 14px;
+    padding: 66px 14px;
 }
 .brands ul li{
 	margin-right: 30px;
@@ -872,4 +872,123 @@ aside {
 .brands ul li a:hover{
     opacity: .7;
    
+}
+                /*Insta*/
+.insta { text-align: center;
+background: #eaeaea;
+}
+.insta h3{
+    font-weight: 900;
+	font-style: italic;
+    font-size: 22px;
+    margin:0;
+    padding-top: 53px;
+    padding-bottom: 24px;
+    position: relative;
+    display: inline-block;
+}
+.insta h3:before{
+	content: '';
+    background: url(../img/insta.png);
+    position: absolute;
+    width:28px;
+    height: 28px;
+    left:-35px;
+    
+}
+.insta h3 span{
+    font-size: 18px;
+    
+}
+.insta ul{
+    padding:0;
+    margin:0;
+    display: flex;
+    padding-bottom: 60px;
+}
+.insta ul li{
+    margin-right: 12px;
+}
+.insta ul li:hover{
+     transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.insta ul li:last-child{
+    margin-right: 0;
+}
+.insta ul li a{
+    display: block;
+}
+
+.insta ul li a  img{
+    display: block;
+}
+                /*Social*/
+.social ul{
+    padding:0;
+    margin:0;
+    display: flex;
+}
+.social li:hover{
+    opacity: .7;
+} 
+.social-fb {
+	position: relative;
+    height: 150px;
+    width:390px;
+    background: #3b5997;
+}
+.social-fb a{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.social-fb a:after{
+    content: '';
+    position: absolute;
+    top:35%;
+    right:50%;
+     width: 30px; height: 62px;
+	background: url(../img/socialbig_sprite.png) -5px -5px;
+}
+.social-tw{
+	position: relative;
+    height: 150px;
+    width:390px;
+    background: #3fccfd;
+}
+.social-tw a{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.social-tw a:after{
+    content: '';
+    position: absolute;
+    top:40%;
+    right:40%;
+    width: 64px; height: 52px;
+	background: url(../img/socialbig_sprite.png) -45px -5px;
+}
+.social-pi{
+	position: relative;
+    height: 150px;
+    width:390px;
+    background: #cb2027;
+}
+.social-pi a{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.social-pi a:after{
+    content: '';
+    position: absolute;
+    top:35%;
+    right:40%;
+    width: 64px; height: 64px;
+	background: url(../img/socialbig_sprite.png) -119px -5px;
 }
