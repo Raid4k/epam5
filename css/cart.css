@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
+html{
+ position: relative;
+    min-height: 100%;
+}
 body {
     font-family: 'Roboto';
     color: #333333;
@@ -148,7 +151,9 @@ ul {
 /* ---Header top END---*/
 
 /*Content*/
-
+main{
+    padding-bottom: 354px;
+}
 .main-content {
     margin-top: 80px;
     display: flex;
@@ -910,7 +915,10 @@ aside {
 /*Footer*/
 
 footer {
-    background: #373737;
+     background: #373737;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
 }
 
 .footer-top-content {
